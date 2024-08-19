@@ -29,6 +29,8 @@ IMAGE_INSTALL += "\
     ti-demos \
     ${ARAGO_DEFAULT_IMAGE_EXTRA_INSTALL} \
     packagegroup-arago-tisdk-sysrepo \
+	lvgl \
+	lvgl-demo-fb \
 "
 
 export IMAGE_BASENAME = "tisdk-default-image${ARAGO_IMAGE_SUFFIX}"
