@@ -49,6 +49,7 @@ ARAGO_EXTRA = "\
     cifs-utils \
     phytool \
     lldpd \
+    libp11 \
 "
 
 ARAGO_EXTRA:append:arago = "\
@@ -58,6 +59,7 @@ ARAGO_EXTRA:append:arago = "\
 OPTEE_PKGS = " \
     optee-os \
     optee-client \
+    optee-client-dev \
     optee-examples \
 "
 
